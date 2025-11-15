@@ -4,6 +4,7 @@ export interface Service {
   description: string;
   icon: React.ComponentType<{ className?: string }>;
   imageUrl: string;
+  slug: string;
 }
 
 export interface Project {

@@ -11,73 +11,85 @@ const ServicesPage: React.FC = () => {
       title: "تصميم الحدائق (Garden Design)",
       description: "نضع مخططًا كاملًا لحديقتك يشمل تحديد أماكن النباتات والأشجار والزهور، توزيع الممرات والإضاءة، مع تقديم رسومات ثنائية وثلاثية الأبعاد لتصور الشكل النهائي.",
       icon: LayoutTemplate,
-      imageUrl: "https://picsum.photos/seed/gardendesign/600/400"
+      imageUrl: "https://picsum.photos/seed/gardendesign/600/400",
+      slug: "garden-design"
     },
     {
       title: "تنسيق اللاندسكيب (Landscaping)",
       description: "نقوم بتنفيذ كافة أعمال تنسيق المواقع من زراعة الأشجار والزهور، تنفيذ المسطحات الخضراء، وتركيب النجيل الطبيعي أو الصناعي لتحقيق شكل عام متناغم.",
       icon: Trees,
-      imageUrl: "https://picsum.photos/seed/landscaping/600/400"
+      imageUrl: "https://picsum.photos/seed/landscaping/600/400",
+      slug: "landscaping"
     },
     {
       title: "تركيب النجيل الصناعي",
       description: "نوفر ونركب أجود أنواع النجيل الصناعي للمنازل، المدارس، الفلل، الحدائق، والملاعب، مع ضمان المتانة والمظهر الطبيعي.",
       icon: Tractor,
-      imageUrl: "https://picsum.photos/seed/turf/600/400"
+      imageUrl: "https://picsum.photos/seed/turf/600/400",
+      slug: "turf"
     },
     {
       title: "شبكات الري الحديثة",
       description: "نصمم ونركب أنظمة الري الحديثة بالتنقيط والرش، وأنظمة التحكم الأوتوماتيكي مع المضخات والتمديدات اللازمة لضمان كفاءة استهلاك المياه.",
       icon: Droplets,
-      imageUrl: "https://picsum.photos/seed/irrigation/600/400"
+      imageUrl: "https://picsum.photos/seed/irrigation/600/400",
+      slug: "irrigation"
     },
     {
       title: "إنشاء وتنسيق الملاعب",
       description: "متخصصون في تصميم وتجهيز الملاعب الرياضية بالنجيل الصناعي المعتمد، وتخطيطها وصيانتها لتكون جاهزة دائمًا للاستخدام.",
       icon: Footprints,
-      imageUrl: "https://picsum.photos/seed/stadium/600/400"
+      imageUrl: "https://picsum.photos/seed/stadium/600/400",
+      slug: "stadium"
     },
     {
       title: "الإضاءة الخارجية للحدائق",
       description: "نبرز جمال حديقتك ليلاً عبر حلول إضاءة مبتكرة تشمل إضاءة أرضية، إضاءة ممرات، وسبوت لايت ديكوري لإضفاء أجواء ساحرة.",
       icon: Lightbulb,
-      imageUrl: "https://picsum.photos/seed/lighting/600/400"
+      imageUrl: "https://picsum.photos/seed/lighting/600/400",
+      slug: "lighting"
     },
     {
       title: "أعمال الحجر والبلاط للممرات",
       description: "نقوم بتنفيذ الممرات باستخدام بلاط الحدائق، الحجر الطبيعي، والحجر النهري، مع تركيب الانترلوك لإضافة لمسة جمالية وعملية.",
       icon: BrickWall,
-      imageUrl: "https://picsum.photos/seed/paving/600/400"
+      imageUrl: "https://picsum.photos/seed/paving/600/400",
+      slug: "paving"
     },
     {
       title: "إنشاء الجلسات والبرجولات",
       description: "نصمم وننفذ جلسات خارجية عصرية، عرائش خشبية، وبرجولات لتوفير مساحات مريحة للاسترخاء والاستمتاع بالهواء الطلق.",
       icon: GalleryVerticalEnd,
-      imageUrl: "https://picsum.photos/seed/pergola/600/400"
+      imageUrl: "https://picsum.photos/seed/pergola/600/400",
+      slug: "pergola"
     },
     {
       title: "تجميل المساحات الخارجية",
       description: "نضيف لمسات جمالية لمساحتك الخارجية عبر تركيب نوافير وشلالات، عشب جداري، مظلات وسواتر، وديكورات خارجية متنوعة.",
       icon: Sofa,
-      imageUrl: "https://picsum.photos/seed/beautify/600/400"
+      imageUrl: "https://picsum.photos/seed/beautify/600/400",
+      slug: "beautify"
     },
     {
       title: "صيانة الحدائق الدورية",
       description: "نقدم عقود صيانة دورية تشمل تنظيف الحديقة، صيانة شبكات الري، علاج وتقليم الأشجار، وقص المسطحات الخضراء للحفاظ على حيويتها.",
       icon: Wrench,
-      imageUrl: "https://picsum.photos/seed/maintenance/600/400"
+      imageUrl: "https://picsum.photos/seed/maintenance/600/400",
+      slug: "maintenance"
     },
     {
       title: "الأسوار الخضراء والعشب الجداري",
       description: "نصمم ونركب الأسوار النباتية الطبيعية والعشب الجداري الصناعي لإضافة خصوصية ولمسة جمالية فريدة على الجدران والأسوار.",
       icon: Fence,
-      imageUrl: "https://picsum.photos/seed/greenwall/600/400"
+      imageUrl: "https://picsum.photos/seed/greenwall/600/400",
+      slug: "greenwall"
     },
     {
       title: "توريد النباتات والزهور",
       description: "نقوم بتوريد أجود أنواع النباتات الداخلية والخارجية، الزهور الموسمية، والأشجار التي تتناسب مع مناخ الرياض.",
       icon: Package,
-      imageUrl: "https://picsum.photos/seed/plantsupply/600/400"
+      imageUrl: "https://picsum.photos/seed/plantsupply/600/400",
+      slug: "plantsupply"
     }
   ];
 
@@ -107,9 +119,14 @@ const ServicesPage: React.FC = () => {
                      <h3 className="text-2xl font-bold text-gray-800">{service.title}</h3>
                   </div>
                   <p className="text-accent leading-relaxed flex-grow">{service.description}</p>
-                  <Link to="/contact" className="mt-6 self-start text-primary font-bold hover:text-primary-dark transition-colors duration-300">
-                    اطلب الخدمة الآن ←
-                  </Link>
+                  <div className="mt-6 flex gap-3">
+                    <Link to={`/services/${service.slug}`} className="text-primary font-bold hover:text-primary-dark transition-colors duration-300">
+                      اقرأ المزيد ←
+                    </Link>
+                    <Link to="/contact" className="text-primary-dark font-bold hover:text-primary transition-colors duration-300">
+                      اطلب الخدمة الآن
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}
